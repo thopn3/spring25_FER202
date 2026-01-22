@@ -5,8 +5,8 @@ import Main from "./components/Main";
 function App() {
   return (
     // Sử dụng HTML built-in làm syntax cho JSX
-    <section>
-      <Header>Header content</Header>
+    <section className="container">
+      <Header/>
 
       <Main>
         <Main.Left/>

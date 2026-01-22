@@ -5,8 +5,10 @@ import Right from "./Right";
 class Main extends React.Component{
     render(){
         return (
-            <section>
-                {this.props.children}
+            <section className="container-fluid">
+                <div className="row">
+                    {this.props.children}
+                </div>
             </section>
         )
     }
