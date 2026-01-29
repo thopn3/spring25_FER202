@@ -1,24 +1,22 @@
 import { useEffect, useState } from "react"
 
-// Functional Component
-function Left(props){
-    // Khai báo 1 state có tên là count
-    const [count, setCount] = useState(0)
-
-    // Sử dụng useEffect() Hook để kiểm soát vòng đời của component
-    useEffect(()=>{
-        return () => {
-            console.log('Thời điểm component được gắn vào DOM - mounting')
-        }
-    }, [])
-
+function Left(props) {
+    const { dataSource } = props
     return (
         <div className="row">
             <div className="col">
-                <h1>Count: {count}</h1>
-                <button
-                    onClick={()=>setCount(count+1)}
-                >Thêm 1</button>
+                <h3>Brands:</h3>
+                <ul style={{listStyle:"none"}}>
+                    {
+                        dataSource?.map(b => (
+                            <li>
+                                <input type="checkbox" key={b.id} value={b.id} />
+                                <label style={{marginLeft:"5px"}}>{b.name}</label>
+                            </li>
+                        ))
+                    }
+                </ul>
+
             </div>
         </div>
     )
