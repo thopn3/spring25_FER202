@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import {Button, Col, Container, Form, Row, Table} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default function Movie(){
     const [movies, setMovies] = useState([])
@@ -43,7 +44,8 @@ export default function Movie(){
             </Row>
             <Row>
                 <Col style={{textAlign:'right', marginBottom:10}}>
-                    <Button className='btn btn-success'>Create Movie</Button>
+                    {/* <Button className='btn btn-success'>Create Movie</Button> */}
+                    <Link to={'/movies/create'} className='btn btn-success'>Create Movie</Link>
                 </Col>
             </Row>
             <Row>
@@ -98,7 +100,8 @@ export default function Movie(){
                                             </ol>
                                         </td>
                                         <td>
-                                            <Button>Edit</Button>
+                                            {/* <Link to={`/movies/edit/${m.id}`} className='btn btn-primary'>Edit</Link> */}
+                                            <Link to={`/movies/edit?movie_id=${m.id}`} className='btn btn-primary'>Edit</Link>
                                         </td>
                                         <td>
                                             <Button className='btn btn-danger'>Delete</Button>
