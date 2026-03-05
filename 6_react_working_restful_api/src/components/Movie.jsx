@@ -29,7 +29,15 @@ export default function Movie(){
         getData()
     }, [])
 
-    console.log(genres)
+    const handleDelete = id => {
+        if(window.confirm('Do you want to delete this movie?')){
+            axios.delete(`http://localhost:9999/movies/${id}`)
+                .then(() => {
+                    alert('Delete success')
+                    window.location.reload()
+                })
+        }
+    }
 
     return (
         <Container>
@@ -104,7 +112,9 @@ export default function Movie(){
                                             <Link to={`/movies/edit?movie_id=${m.id}`} className='btn btn-primary'>Edit</Link>
                                         </td>
                                         <td>
-                                            <Button className='btn btn-danger'>Delete</Button>
+                                            <Button className='btn btn-danger'
+                                                onClick={() => handleDelete(m.id)}
+                                                >Delete</Button>
                                         </td>
                                     </tr>
                                 })

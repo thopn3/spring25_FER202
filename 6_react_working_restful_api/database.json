@@ -1,141 +1,141 @@
 {
-    "directors": [
-        {
-            "id": "665f2fcb6b449f0d1437b6f8",
-            "fullname": "Johnath Verring",
-            "dob": "1973-04-09T00:00:00.000Z",
-            "nationality": "Czech Republic"
-        },
-        {
-            "id": "665f2fcb6b449f0d1437b6fa",
-            "fullname": "Tish Latchmore",
-            "dob": "1973-04-09T00:00:00.000Z",
-            "nationality": "Portugal"
-        },
-        {
-            "id": "665f2fcb6b449f0d1437b6fb",
-            "fullname": "Nicki Kob",
-            "dob": "1975-09-30T00:00:00.000Z",
-            "nationality": "Mozambique"
-        },
-        {
-            "id": "665f2fcb6b449f0d1437b6f9",
-            "fullname": "Ricky Ysson",
-            "dob": "1974-11-09T00:00:00.000Z",
-            "nationality": "Russia"
-        },
-        {
-            "id": "665f2fcb6b449f0d1437b6fd",
-            "fullname": "Pepi Darcey",
-            "dob": "1975-04-25T00:00:00.000Z",
-            "nationality": "Indonesia"
-        },
-        {
-            "id": "665f2fcb6b449f0d1437b6fc",
-            "fullname": "Egon Jose",
-            "dob": "1973-04-10T00:00:00.000Z",
-            "nationality": "Russia"
-        }
-    ],
-    "producers": [
-        {
-            "id": "665f2c7186531e91c6e33c50",
-            "name": "Claire Lawry"
-        },
-        {
-            "id": "665f2caa86531e91c6e33c52",
-            "name": "Cary Geely"
-        },
-        {
-            "id": "665f2cb986531e91c6e33c54",
-            "name": "Ynez Mancktelow"
-        },
-        {
-            "id": "665f2cc586531e91c6e33c56",
-            "name": "Corie Awde"
-        },
-        {
-            "id": "665f2cce86531e91c6e33c58",
-            "name": "Lorna Lockhurst"
-        }
-    ],
-    "stars": [
-        {
-            "id": "665f309c253b0c0839f666ee",
-            "fullname": "Leeanne Dyson",
-            "male": true,
-            "dob": "1977-09-15T00:00:00.000Z",
-            "nationality": "Russia"
-        },
-        {
-            "id": "665f309c253b0c0839f666f1",
-            "fullname": "Mikael Ginnally",
-            "male": false,
-            "dob": "1980-02-14T00:00:00.000Z",
-            "nationality": "Serbia"
-        },
-        {
-            "id": "665f309c253b0c0839f666ef",
-            "fullname": "Fee Passo",
-            "male": false,
-            "dob": "1974-02-19T00:00:00.000Z",
-            "nationality": "Indonesia"
-        },
-        {
-            "id": "665f309c253b0c0839f666f0",
-            "fullname": "Magdalene Oswick",
-            "male": false,
-            "dob": "1977-12-30T00:00:00.000Z",
-            "nationality": "Faroe Islands"
-        },
-        {
-            "id": "665f309c253b0c0839f666f2",
-            "fullname": "Hugues MacKey",
-            "male": true,
-            "dob": "1974-05-28T00:00:00.000Z",
-            "nationality": "Indonesia"
-        },
-        {
-            "id": "665f309c253b0c0839f666f3",
-            "fullname": "Nannette Hebburn",
-            "male": false,
-            "dob": "1977-12-03T00:00:00.000Z",
-            "nationality": "Panama"
-        }
-    ],
-    "movies": [
-        {
-            "id": "665f3dd57281d373d1a044d0",
-            "title": "Quartet",
-            "release": "2024-05-25T00:00:00.000Z",
-            "description": "Fusce posuere felis sed lacus...",
-            "producerId": "665f2c7186531e91c6e33c50",
-            "directorId": "665f2fcb6b449f0d1437b6fa",
-            "genres": [
-                "Comedy",
-                "Cartoon",
-                "Action"
-            ],
-            "starIds": [
-                "665f309c253b0c0839f666f1"
-            ]
-        },
-        {
-            "id": "665f3dd57281d373d1a044d1",
-            "title": "This Boy's Life",
-            "release": "2024-05-28T00:00:00.000Z",
-            "description": "Integer tincidunt ante vel ipsum...",
-            "producerId": "665f2caa86531e91c6e33c52",
-            "directorId": "665f2fcb6b449f0d1437b6fd",
-            "genres": [
-                "Drama",
-                "Comedy"
-            ],
-            "starIds": [
-                "665f309c253b0c0839f666ef",
-                "665f309c253b0c0839f666f1",
-                "665f309c253b0c0839f666f2"
-            ]
-        }
-    ]
+  "directors": [
+    {
+      "id": "665f2fcb6b449f0d1437b6f8",
+      "fullname": "Johnath Verring",
+      "dob": "1973-04-09T00:00:00.000Z",
+      "nationality": "Czech Republic"
+    },
+    {
+      "id": "665f2fcb6b449f0d1437b6fa",
+      "fullname": "Tish Latchmore",
+      "dob": "1973-04-09T00:00:00.000Z",
+      "nationality": "Portugal"
+    },
+    {
+      "id": "665f2fcb6b449f0d1437b6fb",
+      "fullname": "Nicki Kob",
+      "dob": "1975-09-30T00:00:00.000Z",
+      "nationality": "Mozambique"
+    },
+    {
+      "id": "665f2fcb6b449f0d1437b6f9",
+      "fullname": "Ricky Ysson",
+      "dob": "1974-11-09T00:00:00.000Z",
+      "nationality": "Russia"
+    },
+    {
+      "id": "665f2fcb6b449f0d1437b6fd",
+      "fullname": "Pepi Darcey",
+      "dob": "1975-04-25T00:00:00.000Z",
+      "nationality": "Indonesia"
+    },
+    {
+      "id": "665f2fcb6b449f0d1437b6fc",
+      "fullname": "Egon Jose",
+      "dob": "1973-04-10T00:00:00.000Z",
+      "nationality": "Russia"
+    }
+  ],
+  "producers": [
+    {
+      "id": "665f2c7186531e91c6e33c50",
+      "name": "Claire Lawry"
+    },
+    {
+      "id": "665f2caa86531e91c6e33c52",
+      "name": "Cary Geely"
+    },
+    {
+      "id": "665f2cb986531e91c6e33c54",
+      "name": "Ynez Mancktelow"
+    },
+    {
+      "id": "665f2cc586531e91c6e33c56",
+      "name": "Corie Awde"
+    },
+    {
+      "id": "665f2cce86531e91c6e33c58",
+      "name": "Lorna Lockhurst"
+    }
+  ],
+  "stars": [
+    {
+      "id": "665f309c253b0c0839f666ee",
+      "fullname": "Leeanne Dyson",
+      "male": true,
+      "dob": "1977-09-15T00:00:00.000Z",
+      "nationality": "Russia"
+    },
+    {
+      "id": "665f309c253b0c0839f666f1",
+      "fullname": "Mikael Ginnally",
+      "male": false,
+      "dob": "1980-02-14T00:00:00.000Z",
+      "nationality": "Serbia"
+    },
+    {
+      "id": "665f309c253b0c0839f666ef",
+      "fullname": "Fee Passo",
+      "male": false,
+      "dob": "1974-02-19T00:00:00.000Z",
+      "nationality": "Indonesia"
+    },
+    {
+      "id": "665f309c253b0c0839f666f0",
+      "fullname": "Magdalene Oswick",
+      "male": false,
+      "dob": "1977-12-30T00:00:00.000Z",
+      "nationality": "Faroe Islands"
+    },
+    {
+      "id": "665f309c253b0c0839f666f2",
+      "fullname": "Hugues MacKey",
+      "male": true,
+      "dob": "1974-05-28T00:00:00.000Z",
+      "nationality": "Indonesia"
+    },
+    {
+      "id": "665f309c253b0c0839f666f3",
+      "fullname": "Nannette Hebburn",
+      "male": false,
+      "dob": "1977-12-03T00:00:00.000Z",
+      "nationality": "Panama"
+    }
+  ],
+  "movies": [
+    {
+      "id": "665f3dd57281d373d1a044d0",
+      "title": "Quartet",
+      "release": "2024-05-25T00:00:00.000Z",
+      "description": "Fusce posuere felis sed lacus...",
+      "producerId": "665f2c7186531e91c6e33c50",
+      "directorId": "665f2fcb6b449f0d1437b6fa",
+      "genres": [
+        "Comedy",
+        "Cartoon",
+        "Action"
+      ],
+      "starIds": [
+        "665f309c253b0c0839f666f1"
+      ]
+    },
+    {
+      "id": "665f3dd57281d373d1a044d1",
+      "title": "This Boy's Life",
+      "release": "2024-05-28T00:00:00.000Z",
+      "description": "Integer tincidunt ante vel ipsum...",
+      "producerId": "665f2caa86531e91c6e33c52",
+      "directorId": "665f2fcb6b449f0d1437b6fd",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "starIds": [
+        "665f309c253b0c0839f666ef",
+        "665f309c253b0c0839f666f1",
+        "665f309c253b0c0839f666f2"
+      ]
+    }
+  ]
 }
